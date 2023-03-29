@@ -1,11 +1,4 @@
 // Longest Common Prefix
-var lengthOfLastWord = function(s) {
-    let arr=s.trim(" ").split(" ");
-    
-    return arr[(arr.length-1)].length;
-};
-
-console.log(lengthOfLastWord("Hello world"));
 var longestCommonPrefix = function(strs) {
     if(strs.length===0){
    return "";
